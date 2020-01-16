@@ -3,7 +3,7 @@ using BasicCalculator;
 
 namespace StatisticsCalculator
 {
-    public class StatisticsCalculator : Calc,IStatisticsCalculator
+    public class StatisticsCalculator : Calc, IStatisticsCalculator
     {
         public dynamic Mean(dynamic values)
         {
